@@ -1,0 +1,133 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-image: url('../images/hands2.jpg'),linear-gradient(-90deg,#6e71d2,#3b40d8);
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-color: skyblue;
+    background-blend-mode: multiply;
+}
+/*.center{  
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px 25px;
+    width: 300px;
+
+     background-color:rgba(0,0,0,.7);
+    box-shadow: 0 0 10px rgba(255,255,255,.3);
+.center form input{
+    width: calc(100% - 20px);
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #2979ff;
+    color: #fff;
+    font-size: 20px;
+}*/
+.center{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+   
+  opacity: 0.9;
+  
+}
+.center form{
+    width: 400px;
+    height: 400px;
+}
+.center form h1{
+    margin: 5%;
+  font-weight: bold;
+  color: grey;
+  text-align: center;
+}
+.center form label{
+    position:absolute;
+    left:16%;
+    font-size: 20px;
+}
+.center form input{
+    position:absolute;
+    left:16%;
+    width:250px;
+}
+.center form button{
+    text-align:center;
+    background-color: #120ff6;
+    border:none;
+    position:absolute;
+    left:35%;
+    width:90px;
+    height: 30px;
+    border-radius: 5px;
+    background-size:30px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.center form h3{
+    color:#120ff6;
+    border-bottom: 1px solid;
+    width: 65%;
+    display:block;
+    position: absolute;
+    top:60%;
+    left:15%;
+    display: inline-blockl;
+    
+}
+ .center form p{
+     text-decoration:none;
+     position: absolute;
+     top:69%;
+     left:36%;
+ }
+
+ /*.styleFbButton{
+background-image: url('../images/fb.webp'); 
+background-size: 30px;
+border:1px black solid;
+width: 10px;
+height:30px;
+position:absolute;
+top:85%;
+left:50%;
+}
+
+.styleGoogleButton{
+    background-image: url('../images/googleLogo.jpg');
+  
+}*/
+
+.center form #fbstyle{
+    background-image: url('../images/fb.webp'); 
+    width: 120px;
+    height:35px;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    text-align: right;
+    border-radius: 7px;
+    color: gray;
+    position:absolute;
+    top:80%;
+    left:15%;
+}.center form #googlestyle{
+    background-image: url('../images/googleLogo.jpg'); 
+    width: 120px;
+    height:35px;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    text-align: right;
+    border-radius: 7px;
+    color: gray;
+    position:absolute;
+    top:80%;
+    left:50%;
+}

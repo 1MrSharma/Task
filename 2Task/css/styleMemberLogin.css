@@ -1,0 +1,59 @@
+.backgroundMemberLogin{
+   
+    background: linear-gradient(
+      to right, 
+      #2491c8 0%, 
+      #1f82b9 50%, 
+      #1f82b9 50%, 
+      #2083be 100%
+    );
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+  .memberLoginColor{
+    color: blanchedalmond;
+}
+
+ 
+.container {
+    padding: 16px;
+  }
+
+  .text1{
+      background-image: url('../images/imagesMemberLogin/usernameImage.png');
+      position: left;
+      padding: 10px;
+      padding-left: 30px;
+      text-align: center;
+      background-size: 35px;
+      background-repeat: no-repeat;
+      width: 190px;
+        }
+
+        .text2{
+            background-image: url('../images/imagesMemberLogin/password.png');
+            position: left;
+            padding: 10px;
+            padding-left: 30px;
+            text-align: center;
+            background-size: 35px;
+            background-repeat: no-repeat;
+            width: 190px;
+              }
+
+              .submitButton {
+                background-color: #f08e33;
+                border: none;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+              
+                font-size: 16px;
+                margin: 4px 2px;
+                cursor: pointer;
+                width: 250px;
+              }

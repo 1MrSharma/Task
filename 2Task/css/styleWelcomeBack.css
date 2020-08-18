@@ -1,0 +1,138 @@
+
+
+.split{
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left{
+left: 0;
+background: linear-gradient(
+      to right, 
+      #fb8d8c 0%, 
+      #fd9596 0%, 
+      #b41fb9 50%, 
+      #fb8d8c 100%
+    );
+}
+.right{
+right: 0;
+background-color:whitesmoke;
+}
+
+.center{
+  position: absolute
+  top=70%;
+  left: 70%;
+  transform: translate(1%, 1%);
+  text-align: center;
+}
+
+.emailandpass{
+  border:none;
+  background-color:lightgray;
+  position: left;
+  padding: 10px;
+  padding-left: 30px;
+  text-align: left;
+  background-size: 35px;
+  border-radius: 20px;
+  width: 400px;
+  height: 32px;
+}
+
+
+.signIn{
+  position: absolute;
+  top: 40px;
+  left:100px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+}
+
+.continueButton{
+  background-image: url('../images/imagesWelcomeBack/continueIcon.png');
+  background-size: 30px;
+  background-position: right;
+  background-color: #fe8483;
+  border: none;
+  position: left;
+  padding: 10x;
+  padding-left: 30px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 20px;
+  width: 250px;
+  color: antiquewhite;
+  height: 32px;
+  background-repeat: no-repeat;
+}
+
+.twitterButton{
+  background-image: url('../images/imagesWelcomeBack/twitterIcon.png') ;
+  position: left;
+  width: 10px;
+  height: 10px;
+  position: left;
+  padding: 10px;
+  background-size: 30px;
+  
+  text-align: center;
+  background-color: lightskyblue;
+  border: none;
+  color: antiquewhite;
+  font-size: 16px;
+  border-radius: 20px;
+  width: 250px;
+  height: 32px;
+  font-size: small;
+  background-repeat: no-repeat;
+}
+
+
+
+.facebookButton{
+  background-image: url('../images/imagesWelcomeBack/facebookIcon.png');
+  position: left;
+  background-color: lightskyblue;
+  border: none;
+  color: antiquewhite;
+  background-size: 30px;
+  
+  text-align: center;
+  font-size: 16px;
+  border-radius: 20px;
+  width: 250px;
+  height: 32px;
+  font-size: small;
+  background-repeat: no-repeat;
+}
+
+.topright {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  font-size: 18px;
+}
+
+.bottomleft{
+  position:absolute;
+  bottom:40px;
+  left:200px;
+  font-size: 18px;
+}
+
+.centerleft{
+  position:absolute;
+  bottom:250px;
+  left:150px;
+  font-size: 18px;
+  color: antiquewhite;
+  font-family: Arial, Helvetica, sans-serif;
+}
+

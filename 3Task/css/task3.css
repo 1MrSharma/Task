@@ -1,0 +1,130 @@
+.bodya{
+        background-color: #665ae9;
+}
+
+.signin{
+    text-align: center;
+    font-size: 35px;
+    font-style:italic;
+    font-weight: bolder;
+    color:white;
+    position:absolute;
+    top: 10%;
+    left:40%
+}
+.emailIcon{
+   width:-10%;
+   height: -10%;
+   position:absolute;
+   top:30%;
+   left:40%;
+}
+.inputEmail{
+   position: absolute;
+    top:31%;
+    left:45%;
+}
+
+.passwordIcon{
+    position: absolute;
+    top: 40%;
+    left:40%;
+}
+
+.inputPassword{
+    position: absolute;
+    top:40%;
+    left:45%;
+}
+
+.inputCheckbox{
+    position: absolute;
+    top:50%;
+    left:41%;
+}
+
+.rememberMe{
+    position:absolute;
+    top:47%;
+    left:43%;
+}
+
+.forgotPass{
+    position: absolute;
+    top:50%;
+    left:51%;
+}
+.buttonSignIn{
+    background-color: #ff6363;
+    position: absolute;
+    top:57%;
+    left:48%;
+}
+.texta{
+    font-weight: bolder;
+    color:white;
+    position: absolute;
+    top:61%;
+    left:46%;
+}
+
+.buttonGoogle{
+    background-image: url('../images/googleLogo.jpg');
+    position: left;
+    width: 180px;
+  height: 33px;
+  position: left;
+  padding: 10px;
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-color: white;
+  text-align: center;
+  position: absolute;
+  top:70%;
+  left:30%;
+}.buttonTwitter{
+    background-image: url('../images/tw.webp');
+    position: left;
+    width: 180px;
+  height: 33px;
+  position: left;
+  padding: 10px;
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-color: white;
+  text-align: center;
+  position: absolute;
+  top:70%;
+  left:44%;
+}.buttonFacebook{
+    background-image: url('../images/fb.webp');
+    position: left;
+    width: 180px;
+  height: 33px;
+  position: left;
+  padding: 10px;
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-color: white;
+  text-align: center;
+  position: absolute;
+  top:70%;
+  left:58%;
+}
+
+.dot{
+    height: 210px;
+    width:210px;
+    background-color: #9c63ff;
+    border-radius: 50%;
+    text-align:bottom;
+    display: inline-block;
+    position: absolute;
+    top:-20%;
+    right:0%;
+}
+.below{
+position:absolute;
+top:2%;
+right:2%;
+}

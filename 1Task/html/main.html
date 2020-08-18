@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form for admission</title>
+        <style>
+            body {
+              background-image: url('../images/wood2.jpg');
+            }
+            </style>
+    </head>
+    <body>
+        <h1><center>ADMISSION FORM</center></h1>
+        <div id="menu" align="middle">
+            <a href="../HTML/HOME.html" target=" ">HOME</a>
+            <a href="../HTML/CONTACT.html" target=" ">CONTACT</a>
+            <a href="../HTML/ABOUT.html" target=" ">ABOUT</a>
+        </div>
+        <form>
+            <table bordercolor="white" background="../images/wood.jpg" width="500" height="900" border="1" cellspacing="4" cellpadding="5" width="30%"  align="center">
+            <thead>
+                <tr>
+                    <td style="color: blanchedalmond;" colspan="2">
+                        <center><b>Student Registration form</b></center>
+                    </td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="color: blanchedalmond;">
+                        <b>Name</b>
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Enter full name" name="first_name">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="color: blanchedalmond;">
+                       <b>Candidate Id</b> 
+                    </td>
+                    <td>
+                        <input type="text" name="candidate_id" placeholder="Enter candidate id">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="color: blanchedalmond;">
+                        <b>Password</b>
+                    </td>
+                    <td>
+                        <input type="password" placeholder="Enter password" name="password">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="color: blanchedalmond;">
+                        <b>Aadhar card number</b>
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Enter aadhar card number">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="color: blanchedalmond;">
+                        <b>Mobile Number</b>
+                    </td>
+                    <td>
+                        <select name="dropdown">
+                            <option value="India">India(+91)</option>
+                            <option value="Afghanistan">Afghanistan(+93)</option>
+                            <option value="Bahamas">Bahamas(+1)</option>
+                            <option value="Canada">Canada(+1)</option>
+                            <option value="Denmark">Denmark(+45)</option>
+                            <option value="Egypt">Egypt(+45)</option>
+                            <option value="France">France(+33)</option>
+                            <option value="Spain">Spain(+34)</option>
+                            <option value="Italy">France(+39)</option>
+                            <br><br>
+                        </select>
+                        <input type="text" maxlength="10" placeholder="Enter mobile number" name="mobileNo" >
+                    </td>
+                </tr>
+                <tr>
+                    <td style="color: blanchedalmond;">
+                        <b>Select Gender</b>
+                    </td>
+                    <td>
+                        <select name="dropdown">
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                            <option value="None">None</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="color: blanchedalmond;">
+                        <b>College Name</b>
+                    </td>
+                    <td>
+                        <input type="text" name="collegeName" placeholder="Enter college name">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="color: blanchedalmond;">
+                        <b>Branch</b>
+                    </td>
+                    <td>
+                        <input type="text" name="branch" placeholder="Enter branch name">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="color: blanchedalmond;">
+                        <b>Highest Qualification</b>
+                    </td>
+                    <td>
+                        <select name="dropdown">
+                            <option value="Btech">Btech</option>
+                            <option value="10th">10th</option>
+                            <option value="12th">12th</option>
+                            <option value="MCA">MCA</option>
+                            <option value="BCA">BCA</option>
+                            <option value="Phd">Phd</option>
+                            <option value="mathmajor">Math major</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="color: blanchedalmond;">
+                        <b>Address  </b>
+                    </td>
+                    <td>
+                        <textarea rows="2" cols="20"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="color: blanchedalmond;">
+                       <b>Resume
+                    </b>                     </td>
+                    <td>
+                        <input type="file" name="fileupload" accept="image/*"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="color: blanchedalmond;"">
+                        <b>Agreement</b>
+                    </td>
+                    <td style="color: blanchedalmond;">
+                        <input type="checkbox" name="agreement" value="on">I herby declare that I have read, understood and agree to all the rules and regulation set by the owner of the company.
+                    </td>
+                </tr>
+            </tbody>
+               <tfoot>
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" name="submit" value="Submit"/>
+                        <input type="reset" name="reset" value="Reset"/>
+                    </td>
+                </tr>
+            </tfoot>
+            </table>
+        </form>
+    </body>
+</html>
