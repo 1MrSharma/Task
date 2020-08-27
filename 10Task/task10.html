@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Form using grid</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <form>
+        <br />
+        <div class="row">
+          <div class="col">
+            <h1 class="text-sm-center">Admission Form</h1>
+          </div>
+        </div>
+        <br />
+        <div class="row">
+          <div class="col-2">
+            <label for="InputCId">Candidate Id</label>
+          </div>
+          <div class="col-10">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Candidate Id"
+            />
+          </div>
+        </div>
+        <br />
+        <div class="row">
+          <div class="col-2">
+            <label for="InputName1">Name</label>
+          </div>
+          <div class="col-5">
+            <input type="text" class="form-control" placeholder="First name" />
+          </div>
+          <div class="col-5">
+            <input type="text" class="form-control" placeholder="Last name" />
+          </div>
+        </div>
+        <br />
+        <div class="row">
+          <div class="col-2">
+            <label for="exampleInputEmail">Email Address</label>
+          </div>
+          <div class="col-10">
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              placeholder="Enter email"
+            />
+          </div>
+        </div>
+        <br />
+        <div class="row">
+          <div class="col-2">
+            <label for="InputPassword1">Password</label>
+          </div>
+          <div class="col-10">
+            <input
+              type="password"
+              class="form-control"
+              id="InputPassword1"
+              placeholder="Password"
+            />
+          </div>
+        </div>
+        <br />
+        <div class="row">
+          <div class="col-2">
+            <label for="InputPhoneNumber1">Phone Number</label>
+          </div>
+          <div class="col-4">
+            <select id="countrySelect" class="form-control">
+              <option value="India">India(+91)</option>
+              <option value="Afghanistan">Afghanistan(+93)</option>
+              <option value="Bahamas">Bahamas(+1)</option>
+              <option value="Canada">Canada(+1)</option>
+              <option value="Denmark">Denmark(+45)</option>
+              <option value="Egypt">Egypt(+45)</option>
+              <option value="France">France(+33)</option>
+              <option value="Spain">Spain(+34)</option>
+              <option value="Italy">France(+39)</option>
+            </select>
+          </div>
+          <div class="col-6">
+            <input
+              type="text"
+              class="form-control"
+              id="inputMNumber"
+              placeholder="Phone"
+            />
+          </div>
+        </div>
+        <br />
+        <div class="row">
+          <div class="col-2">
+            <label for="genderSelect">Gender</label>
+          </div>
+          <div class="col-10">
+            <select id="genderSelect" class="form-control">
+              <option>Male</option>
+              <option>Female</option>
+              <option>Other</option>
+            </select>
+          </div>
+        </div>
+        <br />
+        <div class="row">
+          <div class="col-2">
+            <label for="nationality">Nationality</label>
+          </div>
+          <div class="col-10">
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="gridRadios"
+                id="gridRadios1"
+                value="option1"
+                checked
+              />
+              <label class="form-check-label" for="gridRadios1"> Indian </label>
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="gridRadios"
+                id="gridRadios2"
+                value="option2"
+              />
+              <label class="form-check-label" for="gridRadios2"> Other </label>
+            </div>
+          </div>
+        </div>
+        <br />
+        <div class="row">
+          <div class="col-2">
+            <label for="exampleFormControlFile1">Resume</label>
+          </div>
+          <div class="col-10">
+            <input
+              type="file"
+              class="form-control-file"
+              id="exampleFormControlFile1"
+            />
+          </div>
+        </div>
+        <br />
+        <div class="text-center">
+          <button class="btn btn-primary" type="submit">Submit form</button>
+        </div>
+        <br />
+        <br />
+      </form>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
